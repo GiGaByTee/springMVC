@@ -3,10 +3,16 @@
 Simple spring mvc rest application
 
 Instruction to execute an app:
-1. Download source.
-2. Run command `mvn clean install`.
-3. Execute `mvn tomcat7:run` - it will run app on default port (8080)
-4. If you wat to specify port, run following command: `mvn tomcat7:run -Dmaven.tomcat.port=portNumber`
+- Download source.
+- Run command `mvn clean install`.
+- Execute `mvn tomcat7:run` - it will run app on default port (8080) 
+- If you wat to specify port, run following command: `mvn tomcat7:run -Dmaven.tomcat.port=portNumber`
+
+ALso, it's possible to execute app via jetty:
+
+instead of 3-4 steps of above run command below
+
+`mvn jetty:run -Djetty.port=portNumber`
 
 #### Available URLs:
 
