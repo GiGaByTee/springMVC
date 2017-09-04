@@ -21,6 +21,7 @@ DELETE `*/springmvc/users/{userId}` - delete specific users with ID
 PUT `*/springmvc/users/{userId}` - update user by ID
 
 POST `*/springmvc/users/` - create user 
+
 Example of request body
 `
 {
