@@ -8,9 +8,9 @@ Instruction to execute an app:
 - Execute `mvn tomcat7:run` - it will run app on default port (8080) 
 - If you wat to specify port, run following command: `mvn tomcat7:run -Dmaven.tomcat.port=portNumber`
 
-ALso, it's possible to execute app via jetty:
+Also, it's possible to execute app via jetty:
 
-instead of 3-4 steps of above run command below
+Instead of 3-4 steps  above run command below
 
 `mvn jetty:run -Djetty.port=portNumber`
 
